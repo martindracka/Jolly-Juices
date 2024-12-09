@@ -62,12 +62,12 @@ header {
     transition: color 0.3s ease;
 }
 
-.nav-links a:hover {
-    color: var(--primary-color);
-}
 
+  
+  
 
-.cart {
+  
+  .cart {
     color: var(--primary-color);
   }
 
@@ -290,9 +290,9 @@ footer {
     gap: 1rem;
     
 color: var(--white);
-        text-decoration: none;
-        display: block;
-        margin-bottom: 0.5rem;
+display: inline-block;
+margin-right: 1rem;
+font-size: 1.5rem;
       
 }
 
