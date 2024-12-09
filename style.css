@@ -25,29 +25,25 @@ body {
 
 
 
-/* Navbar Styles */
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 5%;
-  background-color: var(--white);
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 1000;
+  padding: 1rem 10%;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .search-bar {
+  margin-left: -600px;
   display: flex;
   align-items: center;
   gap: 5px;
   border: 1px solid #ddd;
   border-radius: 5px;
-  padding: 5px 10px;
+  padding: 5px 15px;
   background-color: #f9f9f9;
-  max-width: 2000px; /* Adjust as needed */
+  max-width: 3000px; /* Adjust as needed */
 }
 
 .search-bar input {
@@ -64,7 +60,7 @@ body {
   background: none;
   border: none;
   cursor: pointer;
-  font-size: 1.2rem;
+  font-size: 1.rem;
   color: #333;
   display: flex;
   align-items: center;
@@ -83,22 +79,59 @@ body {
   color: var(--primary-color);
 }
 
-
-
-.nav-links a {
+.brand {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #2ecc71;
   text-decoration: none;
-  color: var(--text-color);
-  margin-left: 2rem;
-  font-weight: 500;
   transition: color 0.3s ease;
 }
 
-.nav-links a:hover {
-  color: var(--primary-color);
+.brand:hover {
+  color: #27ae60;
 }
 
-.cart {
-  color: var(--primary-color);
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.nav-link {
+  color: #34495e;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  position: relative;
+}
+
+.nav-link:hover {
+  color: #2ecc71;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: #2ecc71;
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.cart-icon {
+  position: relative;
+  padding: 0.5rem;
+}
+
+.cart-icon::before {
+  content: '🛒';
+  font-size: 1.2rem;
 }
 
 /* Hero Section */
@@ -148,7 +181,7 @@ body {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: green;
+  background-color: #166534;
   cursor: pointer;
   transition: border-color 0.25s;
 }
