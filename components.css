@@ -1,0 +1,127 @@
+.juice-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .juice-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .juice-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .category-title {
+    color: #333;
+    font-size: 2em;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .juice-name {
+    font-size: 1.25em;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  
+  .juice-description {
+    color: #666;
+    margin-bottom: 15px;
+    font-size: 0.9em;
+  }
+  
+  .eco-badge {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.8em;
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: 500;
+  }
+  
+  
+  .bestseller-card {
+    display: flex;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+  }
+  
+  .bestseller-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .bestseller-content {
+    padding: 40px;
+    flex: 1;
+  }
+  
+  .bestseller-title {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: 600;
+  }
+  
+  .bestseller-description {
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.8;
+  }
+  
+  .price {
+    font-size: 1.5em;
+    color: #2e7d32;
+    font-weight: 600;
+    margin: 20px 0;
+  }
+  
+  .buy-button {
+    background-color: #2e7d32;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buy-button:hover {
+    background-color: #1b5e20;
+  }
+  
+  .badge {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 15px;
+    font-size: 0.8em;
+    font-weight: 500;
+    margin-right: 10px;
+  }
+  
+  .organic-badge {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+  }
+  
+  .premium-badge {
+    background-color: #fff3e0;
+    color: #e65100;
+  }

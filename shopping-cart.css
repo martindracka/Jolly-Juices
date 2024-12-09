@@ -1,0 +1,145 @@
+.cart-container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.back-button {
+  background-color: #ff4444;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.cart-items {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.cart-item:last-child {
+  border-bottom: none;
+}
+
+.item-details {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.item-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.item-info h3 {
+  margin: 0;
+  color: #333;
+}
+
+.item-price {
+  color: #2c5282;
+  font-weight: bold;
+}
+
+.cart-summary {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 2px solid #eee;
+}
+
+.donation-section {
+  background: #e6f6ff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.donation-options {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.donation-amount {
+  padding: 10px 20px;
+  border: 2px solid #2c5282;
+  border-radius: 5px;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.donation-amount:hover {
+  background: #2c5282;
+  color: white;
+}
+
+.petition-section {
+  background: #f0fff4;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.petition-button {
+  display: inline-block;
+  background: #38a169;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.petition-button:hover {
+  background: #2f855a;
+}
+
+.checkout-button {
+  display: block; /* Ensures it behaves like a block-level button */
+  width: 100%; /* Full width */
+  padding: 15px; /* Padding for spacing */
+  background: #4299e1; /* Button color */
+  color: white; /* Text color */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove underline */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 1.1em; /* Font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.checkout-button:hover {
+  background: #3182ce; /* Darker shade on hover */
+}
